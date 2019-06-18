@@ -92,6 +92,7 @@ const getExpenseQuery = gql`
       payoutMethod
       privateMessage
       attachment
+      userTaxFormRequiredBeforePayment
       collective {
         id
         slug
